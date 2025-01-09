@@ -32,7 +32,7 @@ PDO::ATTR_EMULATE_PREPARES      =>  false
 try {
     $pdo = new PDO($dsn , $usuario , $clave , $opciones);
 
-    $sql = $sql = "
+    $sql = "
     SELECT 
         lp.referencia, 
         a.descripcion, 
